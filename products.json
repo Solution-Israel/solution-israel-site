@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": 101,
+      "name": "מערכת לקריאה למעליות",
+      "price": 650,
+      "category": "בטיחות",
+      "image": "assets/products/elev-call.svg",
+      "description": "כולל התקנה ומנוי חודשי. הוספת קומה: 50 ₪ לקומה."
+    },
+    {
+      "id": 102,
+      "name": "קסדה חכמה G4",
+      "price": 500,
+      "category": "בטיחות",
+      "image": "assets/products/g4-helmet.svg",
+      "description": "השכרה חודשית 500 ₪. דיבור דו־כיווני, תיעוד, צילום אירועים. הדרכת הטמעה חד־פעמית: 750 ₪."
+    },
+    {
+      "id": 103,
+      "name": "מד רוח IOT אלחוטי",
+      "price": 1500,
+      "category": "ציוד שטח",
+      "image": "assets/products/anemometer.svg",
+      "description": "התקנה: 1500 ₪. השכרה חודשית: 450 ₪. אלחוטי לחלוטין, אפליקציה וממשק מחשב, התראות מדויקות."
+    },
+    {
+      "id": 104,
+      "name": "REOLINK PTZ Plus",
+      "price": 2100,
+      "category": "מצלמות",
+      "image": "assets/products/ptz-plus.svg",
+      "description": "רכישה: 2100 ₪. מנוי: 100 ₪/חודש. התקנה עד 6 מ': 450 ₪; מעל 6 מ': 750 ₪ (כולל עגורן). סוללה פנימית, פאנל סולארי וכרטיס זיכרון."
+    },
+    {
+      "id": 105,
+      "name": "REOLINK GO Plus",
+      "price": 1600,
+      "category": "מצלמות",
+      "image": "assets/products/go-plus.svg",
+      "description": "רכישה: 1600 ₪. פאנל סולארי: 300 ₪. מנוי: 100 ₪/חודש. התקנה עד 6 מ': 450 ₪; מעל 6 מ': 750 ₪ (כולל עגורן)."
+    },
+    {
+      "id": 106,
+      "name": "VISIONNET 4G",
+      "price": 1600,
+      "category": "מצלמות",
+      "image": "assets/products/visionnet-4g.svg",
+      "description": "רכישה: 1600 ₪. מנוי: 100 ₪/חודש. התקנה עד 6 מ': 450 ₪; מעל 6 מ': 750 ₪ (כולל עגורן). הקלטה 24/7 ואנליטיקה מתקדמת."
+    },
+    {
+      "id": 107,
+      "name": "VISIONNET 4G OPTIC 16 (Zoom)",
+      "price": 2500,
+      "category": "מצלמות",
+      "image": "assets/products/visionnet-zoom.svg",
+      "description": "רכישה: 2500 ₪. מנוי: 100 ₪/חודש. התקנה עד 6 מ': 450 ₪; מעל 6 מ': 750 ₪ (כולל עגורן). זום אופטי מורגש בשטח."
+    },
+    {
+      "id": 108,
+      "name": "קיט ערכת חשמל למצלמה (סולארי)",
+      "price": 4000,
+      "category": "אביזרים",
+      "image": "assets/products/solar-kit.svg",
+      "description": "עלות הקיט: 4000 ₪. התקנה: 1000 ₪. טעינה וניהול מתח רציף בתנאי שטח."
+    },
+    {
+      "id": 109,
+      "name": "מצלמת עגורן מקצועית (אלחוטית)",
+      "price": 13000,
+      "category": "מצלמות",
+      "image": "assets/products/crane-cam.svg",
+      "description": "רכישה: 13,000 ₪ + סים/ענן 100 ₪/חודש. השכרה חודשית: 1450 ₪. התקנה: 2500 ₪. דוושת זום אלחוטית ויציאת 4G."
+    },
+    {
+      "id": 110,
+      "name": "גלאי עשן IOT",
+      "price": 400,
+      "category": "בטיחות",
+      "image": "assets/products/smoke-iot.svg",
+      "description": "רכישה: 400 ₪ + סים 35 ₪/חודש. או השכרה חודשית: 120 ₪. אמינות גבוהה, עמיד לאבק, ללא צורך בחשמל/רשת."
+    }
+  ]
+}

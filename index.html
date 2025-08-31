@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOLUTION — ראשי</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+<nav class="nav">
+  <div class="nav-inner container">
+    <div class="logo">
+      <a href="index.html"><img src="assets/logo.jpg" alt="SOLUTION"></a>
+      <span class="badge">פתרונות לשטח • ללא הרשמה</span>
+    </div>
+    <div class="menu" role="navigation" aria-label="ראשי">
+      <a href="catalog.html">קטלוג</a>
+      <a href="checkout.html">תשלום</a>
+      <a href="#contacts">יצירת קשר</a>
+    </div>
+    <div class="actions">
+      <a class="badge" href="checkout.html">עגלה: <span data-cart-count>0</span></a>
+    </div>
+  </div>
+</nav>
+
+  <header class="hero">
+    <div class="hero-inner container">
+      <div>
+        <h1>פתרונות צילום ובטיחות לשטח — מצלמות 4G, IOT ומדידות רוח</h1>
+        <p>קטלוג בעברית עם עגלה ותשלום. מוצרים נטענים מ-<code>content/products.json</code> — קל לעריכה והוספה.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap">
+          <a class="btn" href="catalog.html">לצפייה בקטלוג</a>
+          <a class="btn secondary" href="#how">איך לערוך/להעלות</a>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <div class="thumb"><img src="assets/products/ptz-plus.svg" alt=""></div>
+          <div class="body">
+            <div class="tag">מצלמות</div>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div><div style="font-weight:700">REOLINK PTZ Plus</div><div class="meta">מוצר מוביל לשטח • 2,100 ₪</div></div>
+              <a class="btn" href="catalog.html">לקנייה</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container section" id="how">
+    <h2 style="margin:0 0 10px">איך לערוך מוצרים ותמונות</h2>
+    <ol class="meta" style="line-height:1.7">
+      <li>העלי תמונות ל-<b>assets/uploads</b> או <b>assets/products</b>.</li>
+      <li>עדכני את <b>content/products.json</b> (או דרך <b>/admin</b> אחרי פריסה ל-Netlify).</li>
+      <li>ב-<b>config/site.json</b> הכניסי <b>PayPal Client ID</b> כדי לאפשר תשלום אמיתי.</li>
+    </ol>
+    <div class="vat">המחירים אינם כוללים מע״מ.</div>
+  </main>
+  
+<footer class="footer" id="contacts">
+  <div class="footer-inner container">
+    <div>
+      <div style="font-weight:700;margin-bottom:8px">SOLUTION</div>
+      <div class="meta">מצלמות, בטיחות וציוד שטח חכם.</div>
+      <div class="vat">המחירים אינם כוללים מע״מ.</div>
+    </div>
+    <div>
+      <div style="margin-bottom:6px">צור קשר</div>
+      <div>WhatsApp: <a href="https://wa.me/972548099815" target="_blank" rel="noreferrer">054-809-9815</a></div>
+      <div>טלפון: <a href="tel:+972548099815">054-809-9815</a></div>
+      <div>דוא״ל: <a href="mailto:solution7.office@gmail.com">solution7.office@gmail.com</a></div>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+
+</body>
+</html>
